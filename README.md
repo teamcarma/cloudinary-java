@@ -20,7 +20,7 @@ Download:
 	try {
 		return CLOUDINARY.buildCloudinaryPhotoURI(remoteImageKey, mimeType, width, height);
 	} catch (CloudinaryException e) {
-		throw new CDNException("Exception occured while attempting to Delete Existing Photo from Cloudinary.", e);
+		throw new CDNException("Exception occured while attempting to build Cloudinary URL.", e);
 	}
 
 Deletion:
