@@ -257,7 +257,7 @@ public class Cloudinary {
 
 		StringBuilder payload = buildDeletionPayload(publicId, currentTime, signature);
 
-		LOGGER.info("Sending JSON payload to Cloudinary: " + payload);
+		LOGGER.trace("Sending JSON payload to Cloudinary: " + payload);
 
 		postJsonToCloudinary(post, payload);
 	}
