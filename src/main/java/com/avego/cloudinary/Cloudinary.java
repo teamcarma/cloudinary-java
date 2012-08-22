@@ -107,7 +107,7 @@ public class Cloudinary {
 			throw new CloudinaryException("Failed to Retrieve response from POST Method.", e);
 		}
 
-		if (status != 202) {
+		if (status != 200) {
 
 			throw new CloudinaryException("Cloudinary Operation was Unsuccessful.  Response was: " + response);
 		}
