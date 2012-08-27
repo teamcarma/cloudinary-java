@@ -1,6 +1,6 @@
-Cloudinary Integration for Java.  
+## Cloudinary Integration for Java.  
 
-Sample initialisation:
+Initialization:
 
 	private static final Cloudinary CLOUDINARY = new Cloudinary(new CloudinaryRepository(REPO_NAME, SECRET_KEY, API_KEY));
 
@@ -31,4 +31,6 @@ Deletion:
 		throw new CDNException("Exception occured while attempting to Delete Existing Photo from Cloudinary.", e);
 	}
 
+## License #######################################################################
 
+Released under the MIT license.
